@@ -18,5 +18,7 @@ export class AppComponent implements DoCheck {
     setTimeout(() => {}, 3000);
   }
 
-  onClick() {}
+  onClick() {
+    this.movies[0].title = 'UPDATE';
+  }
 }
